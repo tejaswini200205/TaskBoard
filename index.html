@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+     <head>
+           <title>Task Board</title>
+           <link rel="stylesheet" href="style.css">
+           <script src="app.js" defer></script>
+     </head>
+     <body>
+        <h1 id="appTitle"></h1>
+
+        <!-- INPUT AREA -->
+        <input type="text" id="taskInput" placeholder="Enter a task" />
+        <button id="addTaskBtn">Add Task</button>
+        <hr>
+
+        <!-- SEARCH BAR -->
+         <div id="searchBar">
+            <input type="text" id="searchInput" placeholder="Search Tasks ...">
+            <button id="searchBtn">🔍</button>
+            <button id="clearBtn">❌</button>
+            <br><br>
+         </div>
+
+
+         <!-- FILTER BUTTONS -->
+          <div id="filterBar">
+            <button id="allFilter">All</button>
+            <button id="pendingFilter">Pending</button>
+            <button id="completedFilter">Completed</button>
+          </div>
+          <hr>
+        
+        <div id="taskContainer"></div>
+     </body>
+</html>

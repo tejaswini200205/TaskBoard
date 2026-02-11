@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4fbff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #0077b6;
+  margin-top: 30px;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+  border: 2px solid #90e0ef;
+  border-radius: 8px;
+  outline: none;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  background: #00b4d8;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #0077b6;
+}
+
+#filterBar {
+  margin-top: 15px;
+}
+
+#taskContainer {
+  width: 400px;
+  margin: 20px auto;
+}
+
+#taskContainer div {
+  background: white;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#searchResults {
+  width: 280px;
+  margin: auto;
+  text-align: left;
+}
+
+.suggestion {
+  background: white;
+  padding: 8px;
+  border: 1px solid #90e0ef;
+  border-radius: 6px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.suggestion:hover {
+  background: #caf0f8;
+}
+
+/* Search Bar Layout */
+#searchBar {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+#searchInput {
+  width: 220px;
+  border-radius: 8px 0 0 8px;
+}
+
+#searchBtn {
+  border-radius: 0 8px 8px 0;
+  padding: 10px 15px;
+}
+
+/* Highlight Search Match */
+.highlight {
+  background: yellow;
+  font-weight: bold;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+#clearBtn {
+  background: white;
+  color: red;
+  border: 2px solid #90e0ef;
+  font-size: 14px;
+  padding: 10px;
+}
+
+#clearBtn:hover {
+  background: #ffe5e5;
+}
