@@ -61,10 +61,6 @@ completedFilter.addEventListener("click", function(){
 });
 
 //Search Event
-// searchInput.addEventListener("input", function(){
-//     searchText = searchInput.value.toLowerCase();
-//     renderTasks();
-// });
 searchInput.addEventListener("input", function(){
     if(searchInput.value.trim() === "") {
         // searchText = "";
