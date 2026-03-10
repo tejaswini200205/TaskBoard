@@ -63,8 +63,6 @@ completedFilter.addEventListener("click", function(){
 //Search Event
 searchInput.addEventListener("input", function(){
     if(searchInput.value.trim() === "") {
-        // searchText = "";
-        // renderTasks();
         clearBtn.style.display = "none";
     }
     else{
@@ -122,13 +120,11 @@ function renderTasks(){
 
     filteredTasks.forEach(function(note, index) {
     const taskDiv = document.createElement("div");
-    //taskDiv.textContent = note;
     taskDiv.style.border = "1px solid black";
     taskDiv.style.margin = "5px";
     taskDiv.style.padding = "8px";
     taskDiv.style.display = "flex";
     taskDiv.style.justifyContent = "space-between";
-    //console.log(tasks);
 
     const taskText = document.createElement("span");
     taskText.textContent = note.text;
